@@ -1,3 +1,47 @@
-body {
-    background-image: grey;
+@font-face {
+    font-family: jetbrains;
+    src: url(Fonts\JetBrainsMono-Regular.woff2);
+}
+
+body{
+    background-color: rgb(5, 4, 4);
+}
+
+button.back{
+    width: 60px;
+    height: 30px;
+    border: 2px;
+    background-color: rgb(39, 39, 39);
+    font-family: jetbrains;
+    font-size: 19px;
+    color: #ff00ff;
+    margin: 2.5px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    border: 2px;
+    background-color: rgb(39, 39, 39);
+    font-family: jetbrains;
+    font-size: 19px;
+    color: #ff00ff;
+    margin: 2.5px;
+}
+
+button:hover{
+    background-image:none;
+    background-color:#ff00ff;
+    color:rgb(39, 39, 39);
+}
+
+h1{
+    font-family: jetbrains;
+    color: #ff00ff;
+    
+}
+
+h4{
+    font-family: jetbrains;
+    color: #ff00ff;
 }
