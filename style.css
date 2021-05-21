@@ -1,6 +1,6 @@
 @font-face {
     font-family: jetbrains;
-    src: url(Fonts\JetBrainsMono-Regular.woff2);
+    src: url('Fonts/JetBrainsMono-Regular.woff2');
 }
 
 body{
@@ -18,7 +18,7 @@ button.back{
     margin: 2.5px;
 }
 
-button{
+.headerbutton{
     width: 120px;
     height: 30px;
     border: 2px;
@@ -29,19 +29,55 @@ button{
     margin: 2.5px;
 }
 
-button:hover{
+.headerbutton:hover{
     background-image:none;
     background-color:#ff00ff;
     color:rgb(39, 39, 39);
 }
 
-h1{
+.kaiheadingmain{
     font-family: jetbrains;
+    font-size: 3em;
     color: #ff00ff;
-    
+    margin: auto;
+    /*position: absolute;
+    left: 50px;
+    top: 200px;
+    */
 }
 
-h4{
+.kaiheadingsec{
     font-family: jetbrains;
     color: #ff00ff;
 }
+
+.flex-container {
+    display: flex;
+    height: 20%;
+    width: 100%;
+    align-items: baseline;
+    background-color: rgb(10, 10, 10);
+  }
+  
+  .flex-container > div {
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    margin: 20%;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  /*
+  .flex-container > ul {
+    background-color: rgb(39, 39, 39);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+*/
+  .list-items {
+      font-size: 4em;
+  }
+
