@@ -4,7 +4,10 @@
 }
 
 body{
-    background-color: rgb(5, 4, 4);
+    background-color: rgb(238, 144, 214);
+    background-image: url('images/WallpaperDog-1807.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 button.back{
@@ -81,3 +84,6 @@ button.back{
       font-size: 4em;
   }
 
+#headerbar {
+    opacity: 0.7;
+}
