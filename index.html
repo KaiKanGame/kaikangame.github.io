@@ -1,29 +1,72 @@
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <title>Kaiiskool</title>
-    <link href="./style.css" rel="stylesheet">
+    <!--<link href="./style.css" rel="stylesheet"> -->
+    <style>
+        @font-face {
+            font-family: jetbrains;
+            src: url(JetBrainsMono-Regular.woff2);
+        }
+
+        body{
+            background-color: rgb(5, 4, 4);
+        }
+
+        button{
+            width: 120px;
+            height: 30px;
+            border: 2px;
+            background-color: rgb(39, 39, 39);
+            font-family: jetbrains;
+            font-size: 19px;
+            color: #ff00ff;
+            margin: 2.5px;
+        }
+
+        button:hover{
+            background-image:none;
+            background-color:#ff00ff;
+            color:rgb(39, 39, 39);
+        }
+        
+        h1{
+            font-family: jetbrains;
+            color: #ff00ff;
+            
+        }
+
+        h4{
+            font-family: jetbrains;
+            color: #ff00ff;
+        }
+    </style>
+
+
 </head>
 
 <body>
+<h1>Kaiiskool</h1>
+<h4>Welcome to my website</h4>
+
 
 <ul>
-    <li>
-        <a href="./Torrents.html">Torrents</a>
-    </li>
-    <li>
-        <a href="./Socials.html">My Socials</a>
-    </li>
-    <li>
-        <a href="./Games.html">Games</a>
-    </li>
-    <li>
-        <a href="./Projects.html">Projects</a>
-    </li>
-    <li>
-        <a href="./Aboutme.html">About me</a>
-    </li>
+        <li>
+            <button onclick="document.location='./Torrents.html'">Torrents</button>
+        </li>
+        <li>
+            <button onclick="document.location='./Socials.html'">Socials</button>
+        </li>
+        <li>
+            <button onclick="document.location='./Games.html'">Games</button>
+        </li>
+        <li>
+            <button onclick="document.location='./Projects.html'">Projects</button>
+        </li>
+        <li>
+            <button onclick="document.location='./Aboutme.html'">About Me</button>
+        </li>
 
 </ul>
 
